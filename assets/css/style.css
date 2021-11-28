@@ -10,18 +10,19 @@ header {
     margin: 0;
 }
 
-.logo {
-    background: url("../media/profile.png");
-    background-position: center;
+.img-profile {
+    background-image: url("/assets/media/profile.png");
+    background-size: contain;
     background-repeat: no-repeat;
-    background-size: cover;
-    min-height: 360px;
+    background-position: center;
     transition: all .5s ease-in-out;
-    -webkit-transition: all .5s ease-in-out;
     -moz-transition: all .5s ease-in-out;
-    -o-transition: all .5s ease-in-out;
-    -ms-transition: all .5s ease-in-out;
+    -webkit-transition: all .5s ease-in-out;
+    width: 100%;
+    height: 480px;
 }
+
+
 
 
 
@@ -31,9 +32,9 @@ html,
 body {
   width: 100%;
   height: 100%;
-  background: #222;
+  background: #fff3f7;
   margin: 0;
-  font-family: sans-serif;
+  font-family: "archivo", sans-serif;
 }
 
 *, *::after, *::before {
@@ -48,11 +49,12 @@ body {
 }
 
 header {
-  padding: 20px 0;
+  padding: 20px;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  color: #fff;
+  background-color: #3d2b3d;
+  color: #fffcf7;
 }
 header h1 {
   margin: 0;
@@ -110,7 +112,7 @@ nav li {
   margin-left: 10px;
 }
 nav li a {
-  color: #fff;
+  color: #fffcf7;
   text-decoration: none;
   text-transform: uppercase;
   font-size: 12px;
@@ -221,7 +223,7 @@ main {
 main .banner,
 main .post,
 main footer {
-  background: #333;
+  background: #fffcf7;
   border-radius: 5px;
   opacity: 0.4;
 }
