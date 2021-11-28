@@ -6,12 +6,22 @@
 
 
 
+/* ------------------------------Hover.css */
+.hvr-fade:active, .hvr-fade:focus, .hvr-fade:hover {
+  background-color: #3d2b3d;
+  color: #db5461;
+  height: 120px;
+}
+
+
+
 header {
     margin: 0;
 }
 
 .img-profile {
     background-image: url("/assets/media/profile.png");
+    background-color: #fffcf7;
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
@@ -22,8 +32,25 @@ header {
     height: 480px;
 }
 
+.img-profile-small {
+  background-image: url("/assets/media/profile.png");
+  background-color: #fffcf7;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  max-width: 100%;
+  max-height: 480px;
+  
+}
 
 
+footer {
+  padding: 20px;
+  align-items: center;
+  background-color: #3d2b3d;
+  font-family: "archivo", sans-serif;
+  color: #fffcf7;
+}
 
 
 /* ------------------------------CSS credit https://codepen.io/beforesemicolon */
@@ -35,6 +62,7 @@ body {
   background: #fff3f7;
   margin: 0;
   font-family: "archivo", sans-serif;
+  text-align: center;
 }
 
 *, *::after, *::before {
@@ -43,7 +71,7 @@ body {
 
 .wrapper {
   width: calc(100% - 50px);
-  max-width: 1200px;
+  max-width: 100%;
   margin: 0 auto;
   height: 100%;
 }
@@ -54,11 +82,13 @@ header {
   justify-content: space-between;
   align-items: center;
   background-color: #3d2b3d;
+  font-family: "archivo", sans-serif;
   color: #fffcf7;
 }
+
 header h1 {
   margin: 0;
-  font-size: 18px;
+  font-size: 24px;
 }
 
 .close-mobile-menu {
@@ -67,7 +97,7 @@ header h1 {
   bottom: 5vh;
   left: 50%;
   transform: translateX(-50%);
-  color: #fff;
+  color: #db5461;
   background: none;
   border: none;
   font-size: 2em;
@@ -90,7 +120,7 @@ nav ul {
     right: 5px;
     flex-direction: column;
     justify-content: center;
-    background: #444;
+    background: #3d2b3d;
     border-radius: 3px;
     z-index: 1;
     padding: 5px 0;
@@ -110,6 +140,7 @@ nav ul {
 }
 nav li {
   margin-left: 10px;
+  color: #fffcf7;
 }
 nav li a {
   color: #fffcf7;
@@ -127,9 +158,9 @@ nav li a:hover {
   border-bottom: 2px solid rgba(255, 255, 255, 0.8);
 }
 nav li.active a {
-  border-bottom: 2px solid #fff;
-  opacity: 1;
+  border-bottom: 2px solid #fffcf7;
 }
+
 @media screen and (max-width: 680px) {
   nav li {
     margin: 0;
@@ -140,7 +171,7 @@ nav li.active a {
     min-width: 125px;
   }
   nav li.active a {
-    background: #333;
+    background: #3d2b3d;
     border-width: 1px;
   }
 }
@@ -171,7 +202,7 @@ nav li.active a {
     position: absolute;
     left: 15%;
     top: 50%;
-    background: #fff;
+    background: #fffcf7;
     transition: transform 0.2s ease, top 0.2s ease;
     transform-origin: center center;
     transform: rotate(0deg) translateY(-50%);
@@ -230,7 +261,7 @@ main footer {
 main .banner {
   grid-column: span 4;
   padding-top: 65%;
-  background: #444;
+  background: #3d2b3d;
 }
 @media screen and (max-width: 1024px) {
   main .banner {
@@ -253,7 +284,7 @@ main .post {
 }
 main footer {
   height: 100px;
-  background: #333;
+  background: #3d2b3d;
   border-radius: 5px;
   margin-top: 20px;
 }
