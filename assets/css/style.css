@@ -20,7 +20,7 @@ header {
 }
 
 .img-profile {
-  background-image: url("/assets/media/profile.png");
+  background-image: url("/assets/images/profile.png");
   background-color: #fffcf7;
   background-size: contain;
   background-repeat: no-repeat;
@@ -33,7 +33,7 @@ header {
 }
 
 .img-profile-small {
-  background-image: url("/assets/media/profile.png");
+  background-image: url("/assets/images/profile.png");
   background-color: #fffcf7;
   background-size: contain;
   background-repeat: no-repeat;
@@ -43,6 +43,25 @@ header {
   -webkit-transition: all .5s ease-in-out;
   width: 100%;
   height: 240px;
+}
+
+.hero-img {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/assets/images/profile.png");
+  width: 100%;
+  height: 480px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.hero-text {
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
 }
 
 .head-ab-ex-co {
@@ -80,6 +99,50 @@ footer {
   background-color: #3d2b3d;
   font-family: "archivo", sans-serif;
   color: #fffcf7;
+}
+
+/* ----------------------------------------Work History */
+
+.timeline-item {
+  padding: 4em 2em 0em 2em;
+  position: relative;
+  background-color: #247ba0;
+  color: #fffcf7;
+  border-left: 1px solid;
+}
+
+.timeline-item p {
+  padding: 0;
+  margin: 0;
+}
+
+.timeline-item:before {
+  content: attr(data-dates);
+  position: absolute;
+  left: 2.5em;
+  top: 3em;
+  display: block;
+  font-family: "archivo", sans-serif;
+  font-weight: 500;
+  font-size: 0.8em;
+  padding: 0;
+  margin: 0;
+}
+
+.timeline-item:after {
+  width: 12px;
+  height: 12px;
+  display: block;
+  top: 2.4em;
+  position: absolute;
+  left: -6px;
+  border-radius: 12px;
+  content: '';
+  background: #fffcf7;
+}
+
+.history-items {
+  margin-bottom: 0;
 }
 
 
