@@ -1,0 +1,30 @@
+/* ------------------------------Google Fonts */
+
+@import url('https://fonts.googleapis.com/css2?family=Archivo:wght@100;200;300;400;500;600;700&display=swap');
+
+/* ------------------------------ */
+
+header {
+    margin: 0;
+}
+
+.logo {
+    background: url("../media/profile.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 360px;
+    transition: all .5s ease-in-out;
+    -webkit-transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -o-transition: all .5s ease-in-out;
+    -ms-transition: all .5s ease-in-out;
+}
+
+
+
+/* ------------------------------Google Fonts */
+
+
+
+/* ------------------------------ */
