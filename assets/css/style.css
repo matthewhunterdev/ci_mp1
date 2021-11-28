@@ -87,6 +87,10 @@ header {
   text-align: left;
 }
 
+.body-ab-ex-co.history-items {
+  padding: 0;
+}
+
 p {
   margin-top: 0;
   margin-bottom: 0;
@@ -100,6 +104,14 @@ footer {
   font-family: "archivo", sans-serif;
   color: #fffcf7;
 }
+
+
+
+
+
+
+
+
 
 /* ----------------------------------------Work History */
 
