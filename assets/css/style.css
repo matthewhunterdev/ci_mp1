@@ -216,9 +216,9 @@ header h1 {
 /* ------------------------------Body */
 
 .body-ab-ex-co {
-  padding-bottom: 10px;
-  padding-left: 10px;
-  font-family: "archivo", sans-serif;
+  margin: 0px;
+  padding: 10px;
+  font-family: "hind", sans-serif;
   font-weight: 100;
   font-size: 24px;
   background-color: #247ba0;
@@ -226,9 +226,6 @@ header h1 {
   text-align: left;
 }
 
-.body-ab-ex-co.history-items {
-  padding: 0;
-}
 
 
 /* ------------------------------Footer */
@@ -294,12 +291,30 @@ footer {
   text-align: left;
 }
 
+h1 {
+  display: block;
+  font-size: 4em;
+  margin-block-start: 0.67em;
+  margin-block-end: 0.67em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-weight: bold;
+}
+
+h2 {
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+}
 
 /* ------------------------------Other */
 
 p {
   margin-top: 0;
   margin-bottom: 0;
+  padding:10px;
 }
 
 html,
@@ -402,3 +417,4 @@ main footer {
   border-radius: 5px;
   margin-top: 20px;
 }
+
