@@ -8,9 +8,8 @@
 
 /* ------------------------------Hover.css */
 .hvr-fade:active, .hvr-fade:focus, .hvr-fade:hover {
-  background-color: #3d2b3d;
-  color: #db5461;
-  height: 120px;
+  background-color: #db5461;
+  color: #fffcf7;
 }
 
 
@@ -19,9 +18,9 @@ header {
   margin: 0;
 }
 
-.img-profile {
+.img-home {
   background-image: url("/assets/images/profile.png");
-  background-color: #fffcf7;
+  background-color: #3d2b3d;
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
@@ -32,23 +31,23 @@ header {
   height: 480px;
 }
 
-.img-profile-small {
-  background-image: url("/assets/images/profile.png");
-  background-color: #fffcf7;
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-position: center;
-  transition: all .5s ease-in-out;
-  -moz-transition: all .5s ease-in-out;
-  -webkit-transition: all .5s ease-in-out;
-  width: 100%;
-  height: 240px;
-}
+
 
 .hero-img {
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/assets/images/profile.png");
+  background-color: #3d2b3d;
   width: 100%;
   height: 480px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.hero-img-abex {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/assets/images/profile.png");
+  width: 100%;
+  height: 50%;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -61,7 +60,7 @@ header {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  color: white;
+  color: #fffcf7;
 }
 
 .head-ab-ex-co {
@@ -100,9 +99,9 @@ p {
 footer {
   padding: 20px;
   align-items: center;
-  background-color: #3d2b3d;
+  background-color: #bbe5ed;
   font-family: "archivo", sans-serif;
-  color: #fffcf7;
+  color: #3d2b3d;
 }
 
 .social-links li a i {
@@ -134,53 +133,6 @@ footer {
 
 
 
-
-
-/* ----------------------------------------Work History */
-
-.timeline-item {
-  padding: 4em 2em 0em 2em;
-  position: relative;
-  background-color: #247ba0;
-  color: #fffcf7;
-  border-left: 1px solid;
-}
-
-.timeline-item p {
-  padding: 0;
-  margin: 0;
-}
-
-.timeline-item:before {
-  content: attr(data-dates);
-  position: absolute;
-  left: 2.5em;
-  top: 3em;
-  display: block;
-  font-family: "archivo", sans-serif;
-  font-weight: 500;
-  font-size: 0.8em;
-  padding: 0;
-  margin: 0;
-}
-
-.timeline-item:after {
-  width: 12px;
-  height: 12px;
-  display: block;
-  top: 2.4em;
-  position: absolute;
-  left: -6px;
-  border-radius: 12px;
-  content: '';
-  background: #fffcf7;
-}
-
-.history-items {
-  margin-bottom: 0;
-}
-
-
 /* ------------------------------CSS credit https://codepen.io/beforesemicolon */
 
 html,
@@ -209,7 +161,7 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: #3d2b3d;
+  background-color: #db5461;
   font-family: "archivo", sans-serif;
   color: #fffcf7;
 }
@@ -248,7 +200,7 @@ nav ul {
     right: 5px;
     flex-direction: column;
     justify-content: center;
-    background: #3d2b3d;
+    background: #db5461;
     border-radius: 3px;
     z-index: 1;
     padding: 5px 0;
@@ -299,7 +251,7 @@ nav li.active a {
     min-width: 125px;
   }
   nav li.active a {
-    background: #3d2b3d;
+    background: #db5461;
     border-width: 1px;
   }
 }
