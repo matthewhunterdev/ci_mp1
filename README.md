@@ -4,17 +4,17 @@
 
 This is the main website for Matthew Hunter. It is a static website, made using HTML and CSS only, designed to be responsibe and accessible on a range of devices, making it easy for users to learn about, and connect with, Matthew.
 
-<h2 align="center"><img src="#"></h2>
+<h2 align="center"><img url=""></h2>
 
 ## User Experience (UX)
 
 -   ### Design
     -   #### Colour Scheme
-        -   The two main colours used are Code Insititue red, and white.
+        -   The four colours used are; Red (HEX DB5461), Purple (HEX 3D2B3D), Blue (HEX 247BA0), and White (HEX FFFCF7).
     -   #### Typography
-        -   The Montserrat font is the main font used throughout the whole website with Sans Serif as the fallback font in case for any reason the font isn't being imported into the site correctly. Montserrat is a clean font used frequently in programming, so it is both attractive and appropriate.
+        -   Archivo and Hind are the main fonts used throughout the whole website, with Sans Serif as the fallback font in case the font isn't being imported into the site correctly. Archivo and Hind compliment each other nicely. They look attractive, but not overpowering.
     -   #### Imagery
-        -   Imagery is important. The large, background hero image is designed to be striking and catch the user's attention. It also has a modern, energetic aesthetic.
+        -   The large, background hero image is designed to be striking and catch the user's attention. It is an image of the avatar I will be using in various applications across the Metaverse. For consistency, variants of the same image are used througout social media. This ensures users quickly know they have arrived at the right place.
 
 *   ### Wireframes
 
