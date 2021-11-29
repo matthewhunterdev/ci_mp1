@@ -187,16 +187,83 @@ nav li.active a {
 }
 
 
+/* ------------------------------Header */
 
 header {
   margin: 0;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #db5461;
+  font-family: "archivo", sans-serif;
+  color: #fffcf7;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 24px;
+  }
+
+
+/* ------------------------------Body */
+
+.body-ab-ex-co {
+  padding-bottom: 10px;
+  padding-left: 10px;
+  font-family: "archivo", sans-serif;
+  font-weight: 100;
+  font-size: 24px;
+  background-color: #247ba0;
+  color: #fffcf7;
+  text-align: left;
+}
+
+.body-ab-ex-co.history-items {
+  padding: 0;
 }
 
 
+/* ------------------------------Footer */
+
+footer {
+  padding: 20px;
+  align-items: center;
+  background-color: #bbe5ed;
+  font-family: "archivo", sans-serif;
+  color: #3d2b3d;
+}
+
+#footer-details {
+  padding: 20px;
+}
 
 
+/* ------------------------------Social */
+
+.social-links li a i {
+  width: 32px;
+  height: 32px;
+  padding: 12px 0;
+  margin-top: 10px;
+  border-radius: 50%;
+  font-size: 13px;
+  line-height: 7px;
+  text-align: center;
+  color: #fffcf7;
+  background: #db5461;
+  transition: all 0.35s ease-in-out;
+  -moz-transition: all 0.35s ease-in-out;
+  -webkit-transition: all 0.35s ease-in-out;
+  -o-transition: all 0.35s ease-in-out;
+}
+
+.social-links li a i:hover {
+  background: #247ba0;
+}
 
 
+/* ------------------------------Text */
 
 .hero-text {
   text-align: center;
@@ -219,65 +286,13 @@ header {
   text-align: left;
 }
 
-.body-ab-ex-co {
-  padding-bottom: 10px;
-  padding-left: 10px;
-  font-family: "archivo", sans-serif;
-  font-weight: 100;
-  font-size: 24px;
-  background-color: #247ba0;
-  color: #fffcf7;
-  text-align: left;
-}
 
-.body-ab-ex-co.history-items {
-  padding: 0;
-}
+/* ------------------------------Other */
 
 p {
   margin-top: 0;
   margin-bottom: 0;
 }
-
-
-footer {
-  padding: 20px;
-  align-items: center;
-  background-color: #bbe5ed;
-  font-family: "archivo", sans-serif;
-  color: #3d2b3d;
-}
-
-.social-links li a i {
-    width: 32px;
-    height: 32px;
-    padding: 12px 0;
-    margin-top: 10px;
-    border-radius: 50%;
-    font-size: 13px;
-    line-height: 7px;
-    text-align: center;
-    color: #fffcf7;
-    background: #db5461;
-    transition: all 0.35s ease-in-out;
-    -moz-transition: all 0.35s ease-in-out;
-    -webkit-transition: all 0.35s ease-in-out;
-    -o-transition: all 0.35s ease-in-out;
-}
-
-.social-links li a i:hover {
-    background: #247ba0;
-}
-
-#footer-details {
-    padding: 20px;
-}
-
-
-
-
-
-/* ------------------------------CSS credit https://codepen.io/beforesemicolon */
 
 html,
 body {
@@ -299,22 +314,6 @@ body {
   margin: 0 auto;
   height: 100%;
 }
-
-header {
-  padding: 20px;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  background-color: #db5461;
-  font-family: "archivo", sans-serif;
-  color: #fffcf7;
-}
-
-header h1 {
-  margin: 0;
-  font-size: 24px;
-  }
-
 .close-mobile-menu {
   display: none;
   position: fixed;
@@ -328,30 +327,30 @@ header h1 {
   z-index: 1000;
 }
 
-
-
-
-
 main {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   gap: 20px;
 }
+
 @media screen and (max-width: 1024px) {
   main {
     grid-template-columns: repeat(3, 1fr);
   }
 }
+
 @media screen and (max-width: 860px) {
   main {
     grid-template-columns: repeat(2, 1fr);
   }
 }
+
 @media screen and (max-width: 660px) {
   main {
     grid-template-columns: 1fr;
   }
 }
+
 main .banner,
 main .post,
 main footer {
@@ -359,35 +358,39 @@ main footer {
   border-radius: 5px;
   opacity: 0.4;
 }
+
 main .banner {
   grid-column: span 4;
   padding-top: 65%;
   background: #3d2b3d;
 }
+
 @media screen and (max-width: 1024px) {
   main .banner {
     grid-column: span 3;
   }
 }
+
 @media screen and (max-width: 860px) {
   main .banner {
     grid-column: span 2;
   }
 }
+
 @media screen and (max-width: 660px) {
   main .banner {
     grid-column: 1;
   }
 }
+
 main .post {
   width: 100%;
   height: 250px;
 }
+
 main footer {
   height: 100px;
   background: #3d2b3d;
   border-radius: 5px;
   margin-top: 20px;
 }
-
-/* ------------------------------ */
