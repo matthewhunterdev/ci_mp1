@@ -1,7 +1,5 @@
 <h1 align="center">Matthew Hunter</h1>
 
-[View the live project here.](#)
-
 This is the main website for Matthew Hunter. It is a static website, made using HTML and CSS only, designed to be responsibe and accessible on a range of devices, making it easy for users to learn about, and connect with, Matthew.
 
 <h2 align="center"><img url=""></h2>
@@ -18,15 +16,15 @@ This is the main website for Matthew Hunter. It is a static website, made using 
 
 *   ### Wireframes
 
-    -   Home Page (menu closed) Wireframe - [View](https://github.com/)
+    -   Home Page (menu closed) Wireframe - [View](https://github.com/matthewhunterdev/ci_mp1v1/blob/5cde0dcc2e0251dd91f5de6a057ccf57872439e8/1%20Home%20Page%20(menu%20closed)%20Wireframe.png)
 
-    -   Home Page (menu open) Wireframe - [View](https://github.com/)
+    -   Home Page (menu open) Wireframe - [View](https://github.com/matthewhunterdev/ci_mp1v1/blob/5cde0dcc2e0251dd91f5de6a057ccf57872439e8/2%20Home%20Page%20(menu%20open)%20Wireframe.png)
 
-    -   About Page Wireframe - [View](https://github.com/)
+    -   About Page Wireframe - [View](https://github.com/matthewhunterdev/ci_mp1v1/blob/5cde0dcc2e0251dd91f5de6a057ccf57872439e8/3%20About%20Page%20Wireframe.png)
 
-    -   Experience Page Wireframe - [View](https://github.com/)
+    -   Experience Page Wireframe - [View](https://github.com/matthewhunterdev/ci_mp1v1/blob/5cde0dcc2e0251dd91f5de6a057ccf57872439e8/4%20Experience%20Page%20Wireframe.png)
 
-    -   Connect Page Wireframe - [View](https://github.com/)
+    -   Connect Page Wireframe - [View](https://github.com/matthewhunterdev/ci_mp1v1/blob/5cde0dcc2e0251dd91f5de6a057ccf57872439e8/5%20Connect%20Page%20Wireframe.png)
 
 ## Features
 
@@ -43,7 +41,7 @@ This is the main website for Matthew Hunter. It is a static website, made using 
 
 ### Frameworks, Libraries & Programs Used
 
-1. [Bootstrap 5.1.3:](https://getbootstrap.com/docs/5.1/getting-started/introduction/)
+1. [Bootstrap 5:](https://getbootstrap.com/docs/5.1/getting-started/introduction/)
     - Bootstrap was used to assist with the responsiveness and styling of the website.
 1. [Google Fonts:](https://fonts.google.com/)
     - Google fonts were used to import the 'Archivo' and 'Hind' fonts into the style.css file which is used on all pages throughout the project.
@@ -69,14 +67,10 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 
 -   The Website was tested on Google Chrome, and Safari browsers.
 -   The website was viewed on a variety of devices such as Desktop, Laptop, iPhone13.
--   A large amount of testing was done to ensure that all pages were linking correctly.
--   Friends and family members were asked to review the site and documentation to point out any bugs and/or user experience issues.
 
 ### Known Bugs
 
--   On some mobile devices the Hero Image pushes the size of screen out more than any of the other content on the page.
-    -   A white gap can be seen to the right of the footer and navigation bar as a result.
--   On Microsoft Edge and Internet Explorer Browsers, all links in Navbar are pushed upwards when hovering over them.
+-   The pages are not filling the browser windows correctly.
 
 ## Deployment
 
@@ -132,22 +126,16 @@ Click [Here](https://help.github.com/en/github/creating-cloning-and-archiving-re
 
 -   The full-screen hero image code came from this [StackOverflow post](https://stackoverflow.com)
 
--   [Bootstrap4](https://getbootstrap.com/docs/4.4/getting-started/introduction/): Bootstrap Library used throughout the project mainly to make site responsive using the Bootstrap Grid System.
+-   [Bootstrap 5](https://getbootstrap.com/docs/5.1/getting-started/introduction/): Bootstrap Library used throughout the project mainly to make site responsive using the Bootstrap Grid System.
 
 -   [MDN Web Docs](https://developer.mozilla.org/) : For Pattern Validation code. Code was modified to better fit my needs and to match an Irish phone number layout to ensure correct validation. Tutorial Found [Here](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/tel#Pattern_validation)
 
 ### Content
 
--   All content was written by the developer.
+-   All content, other than that listed below, was written by the developer.
 
--   Psychological properties of colours text in the README.md was found [here](http://www.colour-affects.co.uk/psychological-properties-of-colours)
+-   Credit to https://codepen.io/beforesemicolon for parts of the code in reference to the site menu. 
 
 ### Media
 
 -   All Images were created by the developer.
-git statu
-### Acknowledgements
-
--   My Mentor for continuous helpful feedback.
-
--   Tutor support at Code Institute for their support.
